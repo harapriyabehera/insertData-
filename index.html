@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="Script/angular.min.js">
+	</script>
+	<script type="text/javascript" src="Script/script.js"></script>
+</head>
+<body>
+	<div ng-app="myApp" ng-controller="myCtrl">
+	<form>
+		
+		Employee No: <input type="number" ng-model="empno"/> <br />
+		First Name:  <input type="text" ng-model="fname"/>   <br />
+		Last Name:   <input type="text" ng-model="lname"/>	 <br />
+		Department:  <input type="text" ng-model="dept"/>	 <br />
+	<button ng-click="insertdata()" value="submit">Save </button>
+	</form>
+		
+	</div>
+</body>
+
+</html>
